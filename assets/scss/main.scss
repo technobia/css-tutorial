@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Pacifico');
+
+$color-blue: #006db5;
+$color-dark: #181d21;
+$color-lightgrey: #80858c;
+$color-grey: #373f4b;
+
+$primary-color: $color-blue;
+$text-title-color: $color-lightgrey;
+
+.font-oswald {
+  font-family: 'Oswald', sans-serif;
+}
+
+.font-pacifico {
+  font-family: 'Pacifico', cursive;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 948px;
+  margin: auto;
+  @extend .font-pacifico;
+}
