@@ -74,7 +74,7 @@ body {
     }
 
     & + li {
-      border-left: 1px solid white;
+      border-left: 1px solid lightgrey;
     }
 
     .dropdown {
@@ -89,6 +89,14 @@ body {
         float: left;
         width: 200px;
         color: black;
+
+        &:hover {
+          color: white;
+        }
+
+        & + li {
+          border: 0;
+        }
       }
     }
   }
