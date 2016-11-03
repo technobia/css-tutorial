@@ -119,7 +119,7 @@ body {
   margin-top: 15px;
 
   #left-side {
-    width: 760px;
+    width: 720px;
     float: left;
     background: $color-dark;
     padding-bottom: 50px;
@@ -156,7 +156,7 @@ body {
 
       .group {
         float: left;
-        width: 253px;
+        width: 240px;
         padding: 0 20px;
         box-sizing: border-box;
 
@@ -176,6 +176,25 @@ body {
           line-height: 2;
           padding-left: 25px;
           background: url("../img/icon-pumpkin.png") no-repeat left;
+        }
+      }
+    }
+  }
+
+  #right-side {
+    float: left;
+    width: 200px;
+    margin-left: 28px;
+
+    .promotions {
+      a {
+        margin-bottom: 15px;
+        float: left;
+        border: 4px solid $color-grey;
+        box-sizing: border-box;
+
+        img {
+          width: 100%;
         }
       }
     }
