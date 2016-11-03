@@ -19,7 +19,8 @@ $text-title-color: $color-lightgrey;
 .parent {
   border: 2px solid $primary-color;
   color: $primary-color;
-  padding: 20px;
+  padding: 70px;
+  position: relative;
 }
 
 .element {
