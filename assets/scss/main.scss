@@ -89,3 +89,24 @@ body {
     }
   }
 }
+
+#slide {
+  margin-top: 15px;
+  background: $color-grey;
+  padding: 15px;
+
+  ul {
+    margin: 0;
+    list-style-type: none;
+
+    li {
+      float: left;
+      width: 183px;
+      text-align: center;
+
+      img {
+        border: 4px solid $color-dark;
+      }
+    }
+  }
+}
